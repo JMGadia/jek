@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category Selection</title>
+    <style>
+        .category-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 0 auto;
+            width: 70%;
+        }
+
+        .category-card {
+            background-color: #fff;
+            border: 1px solid #e6e9e7;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+            width: 250px;
+            height: 250px;
+        }
+
+        .category-card:hover {
+            transform: scale(1.1);
+            background-color: rgb(0, 127, 123);
+        }
+
+        .category-card .category-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .category-card .category-title {
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 0;
+        }
+
+        body {
+            zoom: 200%;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+<div class="category-container">
+    <div class="category-card">
+        <a href="appetizer.html" target="_self"><img src="./pics/appetizer.jpg" alt="Appetizer" class="category-image"></a>
+       <div class="category-title">Appetizer</div>
+    </div>
+
+    <div class="category-card">
+        <a href="maincourse.html" target="_self"><img src="./pics/maincourse.jpg" alt="Main Course" class="category-image"></a>
+        <div class="category-title">Main Course</div>
+    </div>
+
+    <div class="category-card">
+        <a href="dessert.html" target="_self"><img src="./pics/dessert.jpg" alt="Dessert" class="category-image"></a>
+        <div class="category-title">Dessert</div>
+    </div>
+</div>
+</body>
+</html>

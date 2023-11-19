@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgba(181, 194, 8, 0.685), rgba(18, 80, 143, 0.788));
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: skyblue;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: lime;
+    border-radius: 20px;
+}
+header ul li a:hover,   
+header ul li a.active{
+    background: grey;
+    color:lime;
+}
+
+.title{
+    position: absolute;
+    height: 10px;
+    text-align: center;
+    right: 20px;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+
+}
+.title p {
+    text-align: left;
+    font-family:Comics, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+}
+button{
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.8 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: grey;
+    color: lime;
+}
